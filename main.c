@@ -6,13 +6,13 @@ int main()
 	int idade;
 	double altura;
 	float peso;
-	char posicaoPrim[20];  // Corrigido para armazenar uma string
+	char posicaoPrim[20];
 	int numCam;
 
-	printf("Sistema de Cadastro de Jogadores\n\n");
+	printf("ツ Sistema de Cadastro de Jogadors ツ\n\n");
 
 	printf("Digite o nome do jogador: ");
-	scanf("%s", nome);  // Corrigido o uso de scanf para o nome
+	scanf("%s", nome);
 
 	printf("Digite a idade do jogador: ");
 	scanf("%d", &idade);
@@ -23,21 +23,23 @@ int main()
 	printf("Digite o peso do jogador: ");
 	scanf("%f", &peso);
 
-	printf("Digite a posiC'C#o do jogador: ");
+	printf("Digite a posição do jogador: ");
 	scanf("%s", posicaoPrim);
 
-	printf("Digite o nC:mero da camisa do jogador: ");
+	printf("Digite o número da camisa do jogador: ");
 	scanf("%d", &numCam);
+	
+	printf("\n\n!!! Cadastro realizado com sucesso !!!\n\n");
 
-	printf("\nAbaixo terC#o as informaC'C5es cadastradas do jogador:\n\n");
+	printf("Abaixo terão as informações cadastradas do jogador:\n\n");
 	printf("Nome do jogador: %s\n", nome);
 	printf("Idade do jogador: %d\n", idade);
 	printf("Altura do jogador: %.2lf\n", altura);
 	printf("Peso do jogador: %.2f\n", peso);
-	printf("PosiC'C#o em que o jogador joga: %s\n", posicaoPrim);
-	printf("NC:mero da camisa do jogador: %d\n\n", numCam);
+	printf("Posição em que o jogador joga: %s\n", posicaoPrim);
+	printf("Número da camisa do jogador: %d\n\n", numCam);
 
-	printf("Cadastro realizado com sucesso!\n");
+    printf("\nObrigado por realizar o seu cadastro.");
 
 	return 0;
 }
